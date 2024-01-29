@@ -18,10 +18,10 @@ BOT_USERNAME = getenv("BOT_USERNAME", "Nairobimusicxybot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME", "NAIROBI X MUSIC")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "NYKAA_ASS")
-EVALOP = list(map(int, getenv("EVALOP", "6195725562").split()))
+ASSUSERNAME = getenv("ASSUSERNAME", "Nairobiasstant")
+EVALOP = list(map(int, getenv("EVALOP", "5466867033").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001929735324"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001914627611"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6195725562"))
+OWNER_ID = int(getenv("OWNER_ID", "5466867033"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,18 +44,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/tinaarobot/ROYMUSIC",
+    "https://github.com/Anurag8953/Mr-vasu",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/roy_editx")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_friendz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Nairobimusicupdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+0F3-5FV8iRgyNDNl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -95,15 +95,15 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/d5a1743c942510672dc3c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/dec61e858d57c14343455.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
-STATS_IMG_URL = "https://graph.org/file/136c57e473c33a0c62152.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
